@@ -112,15 +112,15 @@ pub use crate::context::Context;
 
 #[macro_use]
 pub mod macros;
-mod axis;
+pub mod axis;
 pub mod context;
-mod expression;
+pub mod expression;
 pub mod function;
-mod node_test;
+pub mod node_test;
 pub mod nodeset;
-mod parser;
-mod token;
-mod tokenizer;
+pub mod parser;
+pub mod token;
+pub mod tokenizer;
 
 // These belong in the the document
 
